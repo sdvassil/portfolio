@@ -200,7 +200,7 @@ client_and_work:
 # contact
 contact:
   enable: true
-  title: "Contact"
+  title: "Connnect"
   description: "If you'd like to connect or have a question about my work or background, please feel free to reach out on LinkedIn. Thank you for visiting!"
   # form:
     # action: "#"
