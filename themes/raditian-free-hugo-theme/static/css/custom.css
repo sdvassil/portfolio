@@ -1,0 +1,259 @@
+/* You can customize theme styles here */
+
+/* utility */
+
+html body {
+    color: #616161;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+    color: #616161;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-left: 0px;
+}
+
+.container h2 span {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.section li {
+    line-height: 1.4;
+    font-size: 18px;
+    padding-left: 0px;
+    font-weight: 200;
+}
+
+.section li::before {
+    content: none;
+}
+
+.row {
+    margin-left: 0px;
+}
+
+.lead {
+    color: #616161;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.45;
+}
+
+.btn-primary {
+    background-color: darkslategray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row--padded {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* responsive */
+
+@media (min-width: 992px) {
+    .rad-showcase__bg {
+        right: 0px;
+    }
+}
+
+
+/* nav bar */
+
+.header .navbar-brand span:first-child {
+    color: darkseagreen;
+    padding-bottom: 7px;
+}
+
+/* showcase */
+
+.rad-showcase .container p.lead {
+    width: 90%;
+}
+
+.rad-showcase .container h1 span {
+    display: block;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.display-1 {
+    padding-bottom: 20px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.display-1 span {
+    color: darkseagreen;
+}
+
+.rad-showcase__bg {
+    left: 45%;
+    height: 60%;
+    align-items: end;
+}
+
+.rad-showcase__bg img {
+    border-right: 15px solid #84a070;
+}
+
+.rad-showcase__bg--mobile {
+    left: 0%;
+    width: 75%;
+}
+
+.rad-showcase .platform-links [class^=icon-] {
+    font-size: 30px;
+}
+
+.rad-showcase .platform-links {
+    margin-top: 25px;
+    margin-right: -5px;
+}
+
+/* about */
+
+.profile-picture {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-left: 15px solid #3c503e;
+}
+
+#about .lead {
+    font-size: 18px;
+}
+
+#about h2 {
+    padding-bottom: 25px;
+}
+
+#about h3 {
+    font-style: italic;
+    text-align-last: right;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.blockquote-text {
+    text-align: end;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 1.25;
+    color: #616161;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+
+.quoted::before {
+    content: open-quote;
+    color: darkseagreen;
+    font-size: 225px;
+    display: block;
+    margin-bottom: -180px;
+    margin-top: -100px;
+    margin-left: 30px;
+    opacity: .3;
+    font-family: serif;
+}
+
+.quoted::after {
+    content: close-quote;
+    color: darkseagreen;
+    font-size: 140px;
+    display: block;
+    margin-bottom: -100px;
+    margin-top: -50px;
+    margin-left: 400px;
+    opacity: .3;
+    font-family: serif;
+}
+
+.blockquote-border {
+    border-left-width: 10px;
+}
+
+/* education */
+
+.education::before {
+    content: none;
+}
+
+.test::after {
+    content: '';
+    position: absolute;
+    opacity: .5;
+    left: 0px;
+    top: 0;
+    width: 615px;
+    height: 100%;
+    z-index: -1;
+    background-color: #cfcfc4;
+    -webkit-transform: skew(
+0deg
+);
+    transform: skew(
+0deg
+);
+}
+
+/* exerience */
+
+.experience__company {
+    color: darkseagreen;
+}
+
+/* portfolio */
+
+.work-description {
+    display: block;
+    font-size: 18px;
+    color: #616161;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.work-bold {
+    font-weight: bold;
+}
+
+#view-sample .btn-primary {
+    margin-top: 1rem;
+}
+
+.work-sample {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E4E5E8;
+}
+
+.reduce-opacity {
+    opacity: .9;
+}
+
+#portfolio .img-right {
+    max-width: 95%;
+}

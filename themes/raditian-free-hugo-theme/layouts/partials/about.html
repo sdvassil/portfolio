@@ -1,0 +1,30 @@
+{{ if .Site.Data.homepage.about.enable }}
+<section class="section rad-animation-group pb-0 section--border-bottom pb-5" id="about">
+  <div class="container rad-fade-down">
+    <div class="col-12 my-auto my-auto">
+      <h2>{{ .Site.Data.homepage.about.title }}</h2>
+      <p class="lead">
+        {{ .Site.Data.homepage.about.content | safeHTML }}
+      </p>
+      <div class="row">
+        <div class="col-12 col-md-7 pl-md-0">
+            <img
+              class="lozad img-responsive profile-picture"
+              src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+              data-src="{{ .Site.Data.homepage.about.image.x | absURL }}"
+              data-srcset="{{ .Site.Data.homepage.about.image.x | absURL }} 1x, {{ .Site.Data.homepage.about.image._2x | absURL }} 2x"
+              alt="About portrait"
+            />
+        </div>
+        <blockquote class="col-12 col-md-5 mt-3 mt-md-0 my-md-auto text-left blockquote quoted">
+            <h3>I do my best work...</h3>
+            <h4>{{ .Site.Data.homepage.about.subtitle | safeHTML }}</h4>
+        </blockquote>
+        </div>
+          <p class="lead">
+          {{ .Site.Data.homepage.about.more | safeHTML }}
+        </p>
+      </div>
+  </div>
+</section>
+{{ end }}

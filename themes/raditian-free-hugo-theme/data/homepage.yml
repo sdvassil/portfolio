@@ -1,0 +1,222 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Steliana."
+  subtitle: "Technical Writer & Documentarian"
+  description: "Knowledge is power. That's why I'm passionate about capturing technical information and conveying it to users. I hope to make others feel empowered, independent, and ready to succeed."
+  more: "As a user advocate, I aim to level the playing field and to reduce monopolies on knowledge. With the proper tools and some eagerness, anyone can learn."
+  image:
+    x: "/img/showcase/showcase.png"
+    _2x: "/img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/steliana-vassileva-6b551645/"
+
+    - icon: "github"
+      URL: "https://github.com/sdvassil"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/user/svassileva/videos"
+
+    - icon: "flickr"
+      URL: "https://www.flickr.com/photos/steliana_vassileva/albums"
+
+# about
+about:
+  enable: true
+  title: "About me"
+  content: '<p class="lead">
+    I&apos;m a technical writer on a software development team that employs an agile methodology. In this role, I lead our documentation efforts and also serve as a proud member of the Quality Assurance (QA) team. I often test new and existing features before I write about them. Additionally, I script and edit video tutorials that help our end users.
+    </p>
+    <p class="lead">
+    We use a docs-as-code approach that keeps me learning, while giving me the chance to sharpen frontend skills, such as HTML, CSS, and JavaScript. I enjoy the technical aspects of my work, being close to engineers, and participating in the development process. In the future, I hope to have the opportunity to work on API documentation.
+    </p>'
+  subtitle:
+    '<p class="blockquote-text">
+    When I can step through a task, test it, and write about it. Going through each step helps my understanding and improves the documentation results.
+    </p>'
+  more:
+    '<p class="lead">
+    My undergraduate studies prepared me for a journalism career as a news writer, video editor, live truck operator, and videographer. After some years in the broadcasting world, I switched gears and received my Master of Applied Science in Information and Communications Technology, with a concentration in web design and development. I feel that my experience in both of these areas contributes to my effectiveness as a communicator and documentarian.
+    </p>'
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "UX Content Collective"
+      year: "2022"
+      degree: "Certification"
+      concentration: "UX Writing for Technical Writers Course"
+    - university: "University of Denver"
+      year: "2010-2013"
+      degree: "Master of Applied Science, Information and Communications Technology"
+      concentration: "Concentration in Web Design & Development"
+    - university: "Goucher College"
+      year: "2000-2004"
+      degree: "Bachelor of Arts, Communications"
+      concentration: "Concentration in Broadcast Journalism"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  subtitle: "More than ten years experience working with information systems, development teams, and end users."
+  description: "Hands-on experience includes documentation, system support and maintenance, system analysis, QA testing, project management, report writing, and data analysis. For additional professional details, check out my LinkedIn profile or download my resume."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "LinkedIn"
+    URL: "https://www.linkedin.com/in/steliana-vassileva-6b551645/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download my resume"
+    URL: "/documents/svassileva-resume-2021-web.pdf"
+
+  items:
+    - title: "Technical Writer"
+      company: "Ritter Insurance Marketing"
+      duration: "July 2018 - Present"
+
+    - title: "Information Systems Analyst II"
+      company: "UPMC Pinnacle"
+      duration: "July 2017 - July 2018"
+
+    - title: "Technical Business Analyst"
+      company: "Harrisburg Area Community College"
+      duration: "July 2014 - July 2017"
+
+    - title: "Application Support Engineer II"
+      company: "Capital Area Intermediate Unit"
+      duration: "March 2013 - July 2014"
+
+    - title: "Program Assistant, Technology Services"
+      company: "Capital Area Intermediate Unit"
+      duration: "March 2012 - March 2013"
+
+# Client & Work
+client_and_work:
+  title: "Work samples"
+  description: "Much of my documentation work is proprietary and not available in the public domain. However, I've included some examples below that are publicly accessible. For other technical writing projects, I've shared protected screenshots to illustrate my work. Please feel free to reach out if you have any questions."
+  enable: true
+
+  works:
+    - title: "Medicareful user guide"
+      description: "Medicareful is a CMS-compliant site that displays benefits and costs for Medicare Advantage, Prescription Drug, and Medicare Supplement plans. Developed along with the Ritter Platform (SaaS), the site allows independent insurance agents to connect with clients and provide customized plan quotes. Medicareful also facilitates online plan enrollments for consumers."
+      goal: "To help insurance agents interact with Medicareful"
+      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
+      sme: "Medicareful support team"
+      audience: "Independent insurance agents using Ritter's software ecosystem"
+      authors: "Steliana Vassileva and Marketing team"
+      myrole: "I worked with Marketing to assemble and organize help information gathered from subject matter experts (SMEs). We created a user guide to present this information on our Docs site. Some of the content, tone, and voice aligns with our Marketing goals. I continue to maintain and update the user guide."
+      button: 
+        icon: "icon-arrow-right"
+        btnText: "View samples"
+        URL: "https://docs.ritterim.com/medicareful/overview/"
+      image:
+        x: "img/works/medicareful.png"
+        _2x: "img/works/medicareful@2x.png"
+      is_even: true
+
+    - title: "RIMdev blog posts"
+      description: "This project is a blog from contributors of Ritter Insurance Marketing's software development department, also known as RIMdev. Content covers a variety of subjects, from frontend tips to backend topics and documentation-related concepts."
+      goal: "To post articles about various subjects that may be of interest to others"
+      toolchain: "Jekyll"
+      sme: "Steliana Vassileva and development team"
+      audience: "Curious web viewers"
+      authors: "Steliana Vassileva and development team"
+      myrole: "When I learn about new topics or acquire new skills, I try to post articles that may be useful to others. Blog posts can be helpful to my team or to anyone on the web that may encounter a similar problem or challenge."
+      button: 
+        icon: "icon-arrow-right"
+        btnText: "View samples"
+        URL: "https://rimdev.io/authors/steliana-vassileva/"
+      image:
+        x: "img/works/rimdev-blog.png"
+        _2x: "img/works/rimdev-blog@2x.png"
+      is_even: false
+
+    - title: "Medicareful help videos"
+      description: "The Medicareful video tutorials help consumers to successfully utilize their Medicareful accounts once registered. Consumer-facing features are integrated into the Ritter Platform CRM, where independent insurance agents manage their clients."
+      goal: "To help consumers interact with Medicareful"
+      toolchain: "Camtasia, Adobe Audition, Adobe After Effects, Adobe Premiere Pro, Wistia"
+      sme: "Quality Assurance (QA) team and Medicareful support team"
+      audience: "Consumers using Medicareful"
+      authors: "Steliana Vassileva"
+      myrole: "I work with the Medicareful support team to identify helpful topics for consumers with Medicareful accounts. I write a script, record audio and video, edit all components, and add animations and music."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View samples"
+        URL: "https://living.medicareful.com/videos-help"
+      image:
+        x: "img/works/medicareful-living-help-videos.png"
+        _2x: "img/works/medicareful-living-help-videos@2x.png"
+      is_even: true
+
+    - title: "Ritter Docs site &#8212; user documentation"
+      description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. User documentation displays based on role and system access."
+      goal: "To help independent insurance agents and internal business staff utilize Ritter's software platform"
+      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
+      sme: "Developers, QA, and other business stakeholders"
+      audience: "Independent insurance agents and internal business staff"
+      authors: "Steliana Vassileva, Marketing and Sales Support teams, software developers, and other internal staff"
+      myrole: "I serve as the primary creator and maintainer of the Docs project. To develop user content, I work with developers, QA teammates, support teams, SMEs, Marketing, and other business stakeholders."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View samples"
+        URL: "https://www.screencast.com/t/axdoknGCT7VP"
+      image:
+        x: "img/works/docs.png"
+        _2x: "img/works/docs@2x.png"
+      is_even: false
+
+    - title: "Ritter Docs site &#8212; developer documentation"
+      description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. Developer documentation displays based on user role and system access."
+      goal: "To help developers and QA with technical tasks, such as local environment setup, GitHub workflows, infrastructure topics, or deployments"
+      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
+      sme: "Developers and members of QA"
+      audience: "QA team and engineers"
+      authors: "Steliana Vassileva"
+      myrole: "I serve as the primary creator and maintainer of the Docs project. To develop technical content, I collaborate with frontend and backend developers, as well as QA team members."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View samples"
+        URL: "https://www.screencast.com/t/bV3I4V5iQj5"
+      image:
+        x: "img/works/docs-rimdev.png"
+        _2x: "img/works/docs-rimdev@2x.png"
+      is_even: true
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  description: "If you'd like to connect or have a question about my work or background, please feel free to reach out on LinkedIn. Thank you for visiting!"
+  # form:
+    # action: "#"
+    # full_name: "Full Name"
+    # email: "Email Address"
+    # message: "Type Your Message Here"
+  # phone:
+    # title: "Phone Number"
+    # number: "+41 (44) 505 10 99"
+  # email:
+    # title: "Email"
+    # email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+  # address:
+    # title: "Address"
+    # address: "Pittsburgh, PA"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "LinkedIn"
+    URL: "https://www.linkedin.com/in/steliana-vassileva-6b551645/"
