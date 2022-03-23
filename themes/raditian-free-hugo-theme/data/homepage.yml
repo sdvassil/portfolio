@@ -218,5 +218,5 @@ contact:
     # address: "Pittsburgh, PA"
   button:
     icon: "icon-linkedin-fill"
-    btnText: "LinkedIn"
+    btnText: "Connect"
     URL: "https://www.linkedin.com/in/steliana-vassileva-6b551645/"
