@@ -133,9 +133,9 @@ client_and_work:
       description: "This project is a blog from contributors of Ritter Insurance Marketing's software development department, also known as RIMdev. Content covers a variety of subjects, from frontend tips to backend topics and documentation-related concepts."
       goal: "To post articles about various subjects that may be of interest to others"
       toolchain: "Jekyll"
-      sme: "Steliana Vassileva and development team"
+      sme: "Steliana Vassileva"
       audience: "Curious web viewers"
-      authors: "Steliana Vassileva and development team"
+      authors: "Steliana Vassileva"
       myrole: "When I learn about new topics or acquire new skills, I try to post articles that may be useful to others. Blog posts can be helpful to my team or to anyone on the web that may encounter a similar problem or challenge."
       button: 
         icon: "icon-arrow-right"
