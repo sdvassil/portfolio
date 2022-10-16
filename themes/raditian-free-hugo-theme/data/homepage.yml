@@ -34,7 +34,7 @@ about:
   enable: true
   title: "About me"
   content: '<p class="lead">
-    I&apos;m a technical writer on a software development team that employs an agile methodology. In this role, I work with support, engineers, and the Product team to produce and review software documentation that highlights new and existing features.
+    I&apos;m a Technical Writer on a software development team that employs an agile methodology. In this role, I work with support, engineers, and the Product team to produce and review software documentation for new and existing features.
     </p>
     <p class="lead">
     We use a docs-as-code approach that keeps me learning, while giving me the chance to sharpen frontend skills, such as HTML, CSS, and JavaScript. I enjoy the technical aspects of my work, being close to engineers, and participating in the development process. In the future, I hope to have the opportunity to work on API documentation.
@@ -48,7 +48,7 @@ about:
     </p>'
   more:
     '<p class="lead">
-    My undergraduate studies prepared me for a journalism career as a news writer, video editor, live truck operator, and videographer. After some years in the broadcasting world, I switched gears and received my Master of Applied Science in Information and Communications Technology, with a concentration in web design and development. I feel that my experience in both of these areas contributes to my effectiveness as a communicator and documentarian.
+    My undergraduate studies prepared me for a journalism career as a news writer, video editor, live truck operator, and videographer. After some years in the broadcasting world, I switched gears and received my Master of Applied Science in Information and Communications Technology, with a concentration in Web Design and Development. I feel that my experience in both of these areas contributes to my effectiveness as a communicator and documentarian.
     </p>'
   image:
     x: "img/who-am-i/user-picture.png"
@@ -119,22 +119,39 @@ client_and_work:
   enable: true
 
   works:
-    - title: "Medicareful user guide"
-      description: "Medicareful is a CMS-compliant site that displays benefits and costs for Medicare Advantage, Prescription Drug, and Medicare Supplement plans. Developed along with the Ritter Platform (SaaS), the site allows independent insurance agents to connect with clients and provide customized plan quotes. Medicareful also facilitates online plan enrollments for consumers."
-      goal: "To help insurance agents interact with Medicareful"
-      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
-      sme: "Medicareful support team"
-      audience: "Independent insurance agents using Ritter's software ecosystem"
-      authors: "Steliana Vassileva and Marketing team"
-      myrole: "I worked with Marketing to assemble and organize help information gathered from subject matter experts (SMEs). We created a user guide to present this information on our Docs site. Some of the content, tone, and voice aligns with our Marketing goals. I continue to maintain and update the user guide."
+    - title: "StrongDM documentation"
+      description: "[StrongDM](https://www.strongdm.com/docs/) is an infrastructure access platform that serves as a proxy. It allows administrators to manage, secure, and audit access to critical infrastructure resources such as databases, servers, clusters, clouds, and websites."
+      goal: "To create technical guides, tutorials, and release notes for the StrongDM Docs site"
+      toolchain: "Hugo, GitHub, HTML, CSS, JavaScript, Algolia, npm Package Manager, webpack"
+      sme: "Engineers, Support, Product, Customer Success, and Education teams"
+      audience: "StrongDM administrators, support, and anyone using the product"
+      authors: "Technical Writers and Steliana Vassileva"
+      myrole: "As a member of the Education team, I create and review content for the StrongDM documentation site with the goal of explaining new and existing features."
       button: 
         icon: "icon-arrow-right"
         btnText: "View samples"
-        URL: "https://docs.ritterim.com/medicareful/overview/"
+        URL: "https://www.screencast.com/t/8KPpzpsZN"
       image:
-        x: "img/works/medicareful.png"
-        _2x: "img/works/medicareful@2x.png"
+        x: "img/works/strongdm-docs.png"
+        _2x: "img/works/strongdm-docs@2x.png"
       is_even: true
+
+    - title: "StrongDM Terraform provider guides"
+      description: "StrongDM is a registered provider in the Terraform Registry. The **sdm** Terraform provider documentation allows StrongDM administrators to quickly deploy common infrastructure configurations by using Terraform."
+      goal: "To update the Guides section of the StrongDM Terraform provider documentation"
+      toolchain: "Terraform Registry"
+      sme: "Engineers, Support, and Customer Success teams"
+      audience: "StrongDM administrators"
+      authors: "Engineers, Technical Writers, and Steliana Vassileva"
+      myrole: "I recently worked with the Engineering and Support teams to improve the Guides section in the Terraform provider documentation. We identified content gaps and made improvements to text, information architecture, and usage examples."
+      button: 
+        icon: "icon-arrow-right"
+        btnText: "View samples"
+        URL: "https://registry.terraform.io/providers/strongdm/sdm/latest/docs"
+      image:
+        x: "img/works/sdm-terraform-provider.png"
+        _2x: "img/works/sdm-terraform-provider@2x.png"
+      is_even: false
 
     - title: "RIMdev blog posts"
       description: "This project is a blog from contributors of Ritter Insurance Marketing's software development department, also known as RIMdev. Content covers a variety of subjects, from frontend tips to backend topics and documentation-related concepts."
@@ -143,7 +160,7 @@ client_and_work:
       sme: "Steliana Vassileva"
       audience: "Curious web viewers"
       authors: "Steliana Vassileva"
-      myrole: "When I learn about new topics or acquire new skills, I try to post articles that may be useful to others. Blog posts can be helpful to my team or to anyone on the web that may encounter a similar problem or challenge."
+      myrole: "When I learned about new topics or acquired new skills, I posted articles that could be useful to others. Blog posts were helpful to my team or anyone on the web encountering similar challenges."
       button: 
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -151,16 +168,33 @@ client_and_work:
       image:
         x: "img/works/rimdev-blog.png"
         _2x: "img/works/rimdev-blog@2x.png"
+      is_even: true
+
+    - title: "Medicareful user guide"
+      description: "Medicareful is a CMS-compliant site that displays benefits and costs for Medicare Advantage, Prescription Drug, and Medicare Supplement plans. Developed along with the Ritter Platform (SaaS), the site allows independent insurance agents to connect with clients and provide customized plan quotes. Medicareful also facilitates online plan enrollments for consumers."
+      goal: "To help insurance agents interact with Medicareful"
+      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
+      sme: "Medicareful support team"
+      audience: "Independent insurance agents using Ritter's software ecosystem"
+      authors: "Marketing team and Steliana Vassileva"
+      myrole: "I worked with Marketing to assemble and organize help information gathered from subject matter experts. We created a user guide to present this information on our Docs site."
+      button: 
+        icon: "icon-arrow-right"
+        btnText: "View samples"
+        URL: "https://docs.ritterim.com/medicareful/overview/"
+      image:
+        x: "img/works/medicareful.png"
+        _2x: "img/works/medicareful@2x.png"
       is_even: false
 
     - title: "Medicareful help videos"
-      description: "The Medicareful video tutorials help consumers to successfully utilize their Medicareful accounts once registered. Consumer-facing features are integrated into the Ritter Platform CRM, where independent insurance agents manage their clients."
+      description: "The Medicareful video tutorials helped consumers to successfully utilize their Medicareful accounts once registered. Consumer-facing features are integrated into the Ritter Platform CRM, where independent insurance agents manage their clients."
       goal: "To help consumers interact with Medicareful"
       toolchain: "Camtasia, Adobe Audition, Adobe After Effects, Adobe Premiere Pro, Wistia"
       sme: "Quality Assurance (QA) team and Medicareful support team"
       audience: "Consumers using Medicareful"
       authors: "Steliana Vassileva"
-      myrole: "I work with the Medicareful support team to identify helpful topics for consumers with Medicareful accounts. I write a script, record audio and video, edit all components, and add animations and music."
+      myrole: "I worked with the Medicareful support team to identify helpful topics for consumers with Medicareful accounts. I wrote a script, recorded audio and video, edited all components, and added animations and music."
       button:
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -171,13 +205,13 @@ client_and_work:
       is_even: true
 
     - title: "Ritter Docs site &#8212; user documentation"
-      description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. User documentation displays based on role and system access."
+      description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. User documentation displayed based on role and system access."
       goal: "To help independent insurance agents and internal business staff utilize Ritter's software platform"
       toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
       sme: "Developers, QA, and other business stakeholders"
       audience: "Independent insurance agents and internal business staff"
       authors: "Steliana Vassileva, Marketing and Sales Support teams, software developers, and other internal staff"
-      myrole: "I serve as the primary creator and maintainer of the Docs project. To develop user content, I work with developers, QA teammates, support teams, SMEs, Marketing, and other business stakeholders."
+      myrole: "I served as the primary creator and maintainer of the Docs project. To develop user content, I worked with developers, QA teammates, support teams, SMEs, Marketing, and other business stakeholders."
       button:
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -188,13 +222,13 @@ client_and_work:
       is_even: false
 
     - title: "Ritter Docs site &#8212; developer documentation"
-      description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. Developer documentation displays based on user role and system access."
+      description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. Developer documentation displayed based on user role and system access."
       goal: "To help developers and QA with technical tasks, such as local environment setup, GitHub workflows, infrastructure topics, or deployments"
       toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
       sme: "Developers and members of QA"
       audience: "QA team and engineers"
       authors: "Steliana Vassileva"
-      myrole: "I serve as the primary creator and maintainer of the Docs project. To develop technical content, I collaborate with frontend and backend developers, as well as QA team members."
+      myrole: "I served as the primary creator and maintainer of the Docs project. To develop technical content, I collaborated with frontend and backend developers, as well as QA team members."
       button:
         icon: "icon-arrow-right"
         btnText: "View samples"
