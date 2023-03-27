@@ -34,13 +34,13 @@ about:
   enable: true
   title: "About me"
   content: '<p class="lead">
-    I&apos;m a Technical Writer on a software development team that employs an agile methodology. In this role, I work with support, engineers, and the Product team to produce and review software documentation for new and existing features.
+    I&apos;m a Technical Writer on a Product team that employs an agile methodology. In this role, I work with support and engineers to produce and review software documentation for new and existing features.
     </p>
     <p class="lead">
-    We use a docs-as-code approach that keeps me learning, while giving me the chance to sharpen frontend skills, such as HTML, CSS, and JavaScript. I enjoy the technical aspects of my work, being close to engineers, and participating in the development process. In the future, I hope to have the opportunity to work on API documentation.
+    We use a documentation approach that keeps me learning while allowing me to sharpen frontend skills, such as HTML, CSS, JavaScript, and React. I enjoy the technical aspects of my work, working with our REST APIs, being close to engineers, and participating in the development process.
     </p>
     <p class="lead">
-    In past roles, I have led documentation efforts and also served as a member of a Quality Assurance (QA) team, where I often tested system features before writing about them. Additionally, I have experience scripting and editing video tutorials.
+    To produce software documentation, I prefer a docs-as-code philosophy and working with static site generators such as Hugo. In past roles, I have led documentation efforts and also served as a member of a Quality Assurance (QA) team, where I often tested system features before writing about them. Additionally, I have experience scripting and editing video tutorials.
     </p>'
   subtitle:
     '<p class="blockquote-text">
@@ -77,7 +77,7 @@ experience:
   enable: true
   title: "Experience"
   subtitle: "More than ten years experience working with information systems, development teams, and end users."
-  description: "Hands-on experience includes documentation, system support and maintenance, system analysis, QA testing, project management, report writing, and data analysis. For additional professional details, check out my LinkedIn profile or download my resume."
+  description: "Hands-on experience includes documentation, frontend development, system support and maintenance, system analysis, QA testing, project management, report writing, and data analysis. For additional professional details, check out my LinkedIn profile or download my resume."
   button:
     icon: "icon-linkedin-fill"
     btnText: "LinkedIn"
@@ -89,8 +89,12 @@ experience:
 
   items:
     - title: "Technical Writer"
+      company: "Wowza Media Systems"
+      duration: "November 2022 - Present"
+
+    - title: "Technical Writer"
       company: "StrongDM"
-      duration: "May 2022 - Present"
+      duration: "May 2022 - November 2022"
 
     - title: "Technical Writer"
       company: "Ritter Insurance Marketing"
@@ -164,7 +168,7 @@ client_and_work:
       button: 
         icon: "icon-arrow-right"
         btnText: "View samples"
-        URL: "https://rimdev.io/authors/steliana-vassileva/"
+        URL: "https://rimdev.io/author/steliana-vassileva"
       image:
         x: "img/works/rimdev-blog.png"
         _2x: "img/works/rimdev-blog@2x.png"
