@@ -36,10 +36,14 @@ theme = "raditian-free-hugo-theme"
   weight = 3
 
   [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
+  name = "Blog"
+  URL = "https://medium.com/@steliana.vassileva"
   weight = 4
 
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 5
 
   [[menu.footer]]
   name = "About"
