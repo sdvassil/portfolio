@@ -29,10 +29,9 @@
             <a class="nav-link" href="{{ .Site.BaseURL | absURL }}">HOME</a>
           </li>
           {{ range .Site.Menus.header }}
+          {{ $blog := "Blog" }}
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="{{ .URL }}"
-              >{{ .Name | upper }}</a
-            >
+            <a data-scroll class="nav-link" href="{{ .URL }}" {{ if eq .Name $blog }} target="_blank"{{ end }}>{{ .Name | upper }}</a>
           </li>
           {{ end }}
         </ul>
