@@ -185,7 +185,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "View samples"
-        URL: "https://living.medicareful.com/videos-help"
+        URL: "https://www.screencast.com/t/OhbBGP4XFDr"
       image:
         x: "img/works/medicareful-living-help-videos.png"
         _2x: "img/works/medicareful-living-help-videos@2x.png"
