@@ -128,7 +128,7 @@ client_and_work:
       goal: "To create technical guides, tutorials, and release notes for the StrongDM Docs site"
       toolchain: "Hugo, GitHub, HTML, CSS, JavaScript, Algolia, npm Package Manager, webpack"
       sme: "Engineers, Support, Product, Customer Success, and Education teams"
-      audience: "StrongDM administrators, support, and anyone using the product"
+      audience: "StrongDM administrators, support, and anyone using StrongDM"
       authors: "Technical Writers and Steliana Vassileva"
       myrole: "As a member of the Education team, I create and review content for the StrongDM documentation site with the goal of explaining new and existing features."
       button: 
