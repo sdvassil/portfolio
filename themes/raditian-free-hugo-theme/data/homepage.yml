@@ -128,7 +128,7 @@ client_and_work:
       goal: "To create technical guides, tutorials, and release notes for the StrongDM Docs site"
       toolchain: "Hugo, GitHub, HTML, CSS, JavaScript, Algolia, npm Package Manager, webpack"
       sme: "Engineers, Support, Product, Customer Success, and Education teams"
-      audience: "StrongDM administrators, support, and anyone using the product"
+      audience: "StrongDM administrators, support, and anyone using StrongDM"
       authors: "Technical Writers and Steliana Vassileva"
       myrole: "As a member of the Education team, I create and review content for the StrongDM documentation site with the goal of explaining new and existing features."
       button: 
@@ -173,23 +173,6 @@ client_and_work:
         x: "img/works/rimdev-blog.png"
         _2x: "img/works/rimdev-blog@2x.png"
       is_even: true
-
-    - title: "Medicareful user guide"
-      description: "Medicareful is a CMS-compliant site that displays benefits and costs for Medicare Advantage, Prescription Drug, and Medicare Supplement plans. Developed along with the Ritter Platform (SaaS), the site allows independent insurance agents to connect with clients and provide customized plan quotes. Medicareful also facilitates online plan enrollments for consumers."
-      goal: "To help insurance agents interact with Medicareful"
-      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
-      sme: "Medicareful support team"
-      audience: "Independent insurance agents using Ritter's software ecosystem"
-      authors: "Marketing team and Steliana Vassileva"
-      myrole: "I worked with Marketing to assemble and organize help information gathered from subject matter experts. We created a user guide to present this information on our Docs site."
-      button: 
-        icon: "icon-arrow-right"
-        btnText: "View samples"
-        URL: "https://docs.ritterim.com/medicareful/overview/"
-      image:
-        x: "img/works/medicareful.png"
-        _2x: "img/works/medicareful@2x.png"
-      is_even: false
 
     - title: "Medicareful help videos"
       description: "The Medicareful video tutorials helped consumers to successfully utilize their Medicareful accounts once registered. Consumer-facing features are integrated into the Ritter Platform CRM, where independent insurance agents manage their clients."
