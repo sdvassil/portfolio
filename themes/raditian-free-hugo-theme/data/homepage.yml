@@ -123,7 +123,7 @@ experience:
 # Client & Work
 client_and_work:
   title: "Work samples"
-  description: "Some of my documentation work is proprietary and not available in the public domain. However, I've included examples in my portfolio that are publicly accessible. For private technical writing projects, I can share protected screenshots to illustrate my work. Please feel free to reach out if you have any questions."
+  description: "Some of my documentation work is proprietary and not available in the public domain. However, I've included work examples in this online portfolio that are publicly accessible. For private technical writing projects, I can share protected screenshots to illustrate my work. Please feel free to reach out if you have any questions."
   enable: true
 
   works:
@@ -193,7 +193,7 @@ client_and_work:
       image:
         x: "img/works/medicareful-living-help-videos.png"
         _2x: "img/works/medicareful-living-help-videos@2x.png"
-      is_even: true
+      is_even: false
 
     - title: "Ritter Docs site &#8212; user documentation"
       description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. User documentation displayed based on role and system access."
@@ -202,7 +202,7 @@ client_and_work:
       sme: "Developers, QA, and other business stakeholders"
       audience: "Independent insurance agents and internal business staff"
       authors: "Steliana Vassileva, Marketing and Sales Support teams, software developers, and other internal staff"
-      myrole: "I served as the primary creator and maintainer of the Docs project. To develop user content, I worked with developers, QA teammates, support teams, SMEs, Marketing, and other business stakeholders."
+      myrole: "I served as the primary creator and maintainer of the Docs project and website. To develop user content, I worked with developers, QA teammates, support teams, SMEs, the Marketing team, and other business stakeholders."
       button:
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -210,16 +210,16 @@ client_and_work:
       image:
         x: "img/works/docs.png"
         _2x: "img/works/docs@2x.png"
-      is_even: false
+      is_even: true
 
     - title: "Ritter Docs site &#8212; developer documentation"
-      description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. Developer documentation displayed based on user role and system access."
+      description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. Developer documentation displays based on user role and system access."
       goal: "To help developers and QA with technical tasks, such as local environment setup, GitHub workflows, infrastructure topics, or deployments"
       toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
       sme: "Developers and members of QA"
       audience: "QA team and engineers"
       authors: "Steliana Vassileva"
-      myrole: "I served as the primary creator and maintainer of the Docs project. To develop technical content, I collaborated with frontend and backend developers, as well as QA team members."
+      myrole: "I served as the primary creator and maintainer of the Docs project and website. To develop technical content, I collaborated with frontend and backend engineers, as well as QA team members."
       button:
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -227,7 +227,7 @@ client_and_work:
       image:
         x: "img/works/docs-rimdev.png"
         _2x: "img/works/docs-rimdev@2x.png"
-      is_even: true
+      is_even: false
 
 # contact
 contact:
