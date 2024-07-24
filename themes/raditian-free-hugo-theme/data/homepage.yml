@@ -34,13 +34,13 @@ about:
   enable: true
   title: "About me"
   content: '<p class="lead">
-    I&apos;m a Technical Writer on a Product team that employs an agile methodology. In this role, I work with support and engineers to produce and review software documentation for new and existing features.
+    I&apos;m a Technical Writer on a Product team that employs an agile methodology. In this role, I work with the support team and engineers to produce software documentation for new and existing features.
     </p>
     <p class="lead">
-    We use a documentation approach that keeps me learning while allowing me to sharpen frontend skills, such as HTML, CSS, JavaScript, and React. I enjoy the technical aspects of my work, working with our REST APIs, being close to engineers, and participating in the development process.
+    We use a documentation approach that keeps me learning while giving me the opportunity to sharpen frontend skills, such as HTML, CSS, JavaScript, and React. I enjoy the technical aspects of my work, working with our REST APIs, collaborating with engineers, and participating in the development process. To produce software documentation, I prefer a docs-as-code philosophy and working with static site generators such as Hugo, Jekyll, or Gatsby. 
     </p>
     <p class="lead">
-    To produce software documentation, I prefer a docs-as-code philosophy and working with static site generators such as Hugo. In past roles, I have led documentation efforts and also served as a member of a Quality Assurance (QA) team, where I often tested system features before writing about them. Additionally, I have experience scripting and editing video tutorials.
+    In past roles, I have led documentation efforts and also served as a member of a Quality Assurance (QA) team, where I often tested system features before writing about them. Additionally, I have experience scripting and editing video tutorials.
     </p>'
   subtitle:
     '<p class="blockquote-text">
@@ -88,9 +88,13 @@ experience:
     URL: "/documents/svassileva-resume-2022-web.pdf"
 
   items:
+    - title: "Senior Technical Writer"
+      company: "Wowza Media Systems"
+      duration: "March 2024 - Present"
+
     - title: "Technical Writer"
       company: "Wowza Media Systems"
-      duration: "November 2022 - Present"
+      duration: "November 2022 - April 2024"
 
     - title: "Technical Writer"
       company: "StrongDM"
@@ -119,7 +123,7 @@ experience:
 # Client & Work
 client_and_work:
   title: "Work samples"
-  description: "Some of my documentation work is proprietary and not available in the public domain. However, I've included some examples below that are publicly accessible. For other technical writing projects, I've shared protected screenshots to illustrate my work. Please feel free to reach out if you have any questions."
+  description: "Some of my documentation work is proprietary and not available in the public domain. However, I've included examples in my portfolio that are publicly accessible. For private technical writing projects, I can share protected screenshots to illustrate my work. Please feel free to reach out if you have any questions."
   enable: true
 
   works:
