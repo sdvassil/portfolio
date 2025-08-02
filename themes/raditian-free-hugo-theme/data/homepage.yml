@@ -81,7 +81,7 @@ experience:
     URL: "https://www.linkedin.com/in/steliana-vassileva-6b551645/"
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download my resume"
+    btnText: "Download my résumé"
     URL: "/documents/svassileva-resume-2022-web.pdf"
 
   items:
