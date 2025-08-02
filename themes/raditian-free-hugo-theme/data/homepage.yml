@@ -126,9 +126,9 @@ client_and_work:
   works:
     - title: "Wowza Streaming Engine"
       description: "[Wowza Streaming Engine™](https://www.wowza.com/docs/wowza-streaming-engine-product-articles) is a robust and powerful media server designed for developers who need full control over live and on-demand video delivery. It's extensible through custom Java modules and easily integrated via REST and Java APIs, supporting both single-bitrate and adaptive bitrate streaming using industry-standard protocols such as HLS, MPEG-DASH, RTMP, RTSP, and WebRTC. Since it's designed for flexibility, the server can be deployed on-premises or in hybrid environments."
-      goal: "To create and update technical guides, tutorials, release notes, API and SDK references for Wowza Streaming Engine and the official Wowza documentation site."
-      toolchain: "KnowledgeOwl, HTML, CSS, JavaScript, JQuery."
-      sme: "Engineers, support team members, product managers."
+      goal: "To create and update technical guides, tutorials, release notes, and API and SDK references for Wowza Streaming Engine and the official Wowza documentation site."
+      toolchain: "KnowledgeOwl, HTML, CSS, JavaScript, and JQuery."
+      sme: "Engineers, support team members, and product managers."
       audience: "Video streaming engineers, Wowza Streaming Engine administrators, support, and other users."
       myrole: "Developed and maintained technical content for Wowza Streaming Engine, including SDK and API references, integration guides, tutorials, and release notes. Collaborated with engineering and QA teams to test new features in pre-release builds, validate functionality, and ensure documentation accuracy. Authored developer-focused materials aligned with REST and Java API usage, media streaming workflows, and deployment scenarios. Contributed to content architecture and documentation tooling."
       button: 
@@ -142,11 +142,10 @@ client_and_work:
 
     - title: "Wowza Flowplayer"
       description: "[Wowza Flowplayer](https://developer.wowza.com/docs/wowza-flowplayer/) is a lightweight, modular HTML5 video player optimized for low-latency live and on-demand streaming across modern browsers and devices. It supports adaptive bitrate streaming via HLS and MPEG-DASH, and includes built-in ad tech support for VAST, VMAP, and Google IMA SDK integrations. The player provides a modular UI architecture, an extensible JavaScript API, and customizable theming via CSS. Its event-driven model supports granular playback control and custom user interaction workflows, as it integrates easily with APIs and backend systems to tailor playback behavior, manage metadata, and surface analytics."
-      goal: "To create and update technical guides, tutorials, release notes, SDK references for users of Wowza Flowplayer as a standalone product."
-      toolchain: "Redocly developer portal, Gatsby, GitHub, HTML, CSS, MDX, React."
-      sme: "Engineers, support team members, product managers."
+      goal: "To create and update technical guides, tutorials, release notes, and SDK references for users of Wowza Flowplayer as a standalone product."
+      toolchain: "Redocly developer portal, Gatsby, GitHub, HTML, CSS, MDX, and React."
+      sme: "Engineers, support team members, and product managers."
       audience: "Video streaming engineers, Wowza Flowplayer publishers, support, and other users."
-      authors: "Technical writing team and Steliana Vassileva."
       myrole: "Developed and maintained SDK references, technical guides, tutorials, and release notes for Wowza Flowplayer as a standalone product. Managed updates to the developer portal, ensuring accurate, versioned content and seamless navigation. Collaborated with engineering to test new features and document integration workflows, player configuration, and API usage in a docs-as-code pipeline."
       button: 
         icon: "icon-arrow-right"
@@ -158,12 +157,11 @@ client_and_work:
       is_even: true
 
     - title: "Wowza Flowplayer Apple and Android SDKs"
-      description: "The [Wowza Flowplayer Apple SDK](https://developer.wowza.com/docs/wowza-flowplayer/apple-sdk/about-the-apple-sdk/) and [Android SDK](https://developer.wowza.com/docs/wowza-flowplayer/android-sdk/about-the-android-sdk/) are mobile software development kits that allow developers to integrate live streaming and on-demand video playback into native iOS and Android applications. These SDKs are purpose-built for low-latency, secure, and reliable media playback experiences on mobile, optimized for compatibility with HLS (HTTP Live Streaming) and DASH protocols, DRM (Digital Rights Management), and advanced analytics. They are part of the broader Wowza Flowplayer product ecosystem, which includes powerful video streaming, player, and monetization tools."
+      description: "The [Wowza Flowplayer Apple SDK](https://developer.wowza.com/docs/wowza-flowplayer/apple-sdk/about-the-apple-sdk/) and [Android SDK](https://developer.wowza.com/docs/wowza-flowplayer/android-sdk/about-the-android-sdk/) are mobile software development kits that allow developers to integrate live streaming and on-demand video playback into native iOS and Android applications. These SDKs are built for low-latency, secure, and reliable media playback experiences on mobile, optimized for compatibility with HLS (HTTP Live Streaming) and DASH protocols, DRM (Digital Rights Management), and advanced analytics. They are part of the broader Wowza Flowplayer product ecosystem, which includes powerful video streaming, player, and monetization tools."
       goal: "To develop a comprehensive, scalable documentation set that clearly explains SDK usage, capabilities, and integration patterns across supported platforms."
-      toolchain: "Redocly developer portal, Gatsby, GitHub, HTML, CSS, MDX, React."
-      sme: "Engineers, support team members, product managers."
+      toolchain: "Redocly developer portal, Gatsby, GitHub, HTML, CSS, MDX, and React."
+      sme: "Engineers, support team members, and product managers."
       audience: "Video streaming engineers, Wowza Flowplayer publishers, support, and other users."
-      authors: "Technical writing team and Steliana Vassileva."
       myrole: "Collaborated closely with engineering teams to plan, develop, and deliver a comprehensive SDK reference from the ground up. Led content architecture, defined documentation structure and style, and translated complex technical concepts into clear, developer-friendly language. Worked hands-on with the SDK to validate functionality, write usage examples, and ensure accuracy."
       button: 
         icon: "icon-arrow-right"
@@ -181,10 +179,9 @@ client_and_work:
     - title: "StrongDM"
       description: "[StrongDM](https://www.strongdm.com/docs/) is an infrastructure access platform that serves as a proxy. It allows administrators to manage, secure, and audit access to critical infrastructure resources such as databases, servers, clusters, clouds, and websites."
       goal: "To create technical guides, tutorials, and release notes for the StrongDM documentation site."
-      toolchain: "Hugo, GitHub, HTML, CSS, JavaScript, Algolia, npm, webpack."
+      toolchain: "Hugo, GitHub, HTML, CSS, JavaScript, Algolia, npm, and webpack."
       sme: "Engineers, support, product, and customer success teams."
       audience: "StrongDM administrators, support, and other StrongDM users."
-      authors: "Technical writing team and Steliana Vassileva."
       myrole: "Contributed to the design, authoring, and review of technical content for the StrongDM documentation site, including tutorials, integration guides, and release notes. Focused on clearly communicating new and existing product features to technical audiences. Collaborated with engineering and product teams to verify functionality, test workflows, and ensure documentation accuracy in a fast-paced, versioned docs-as-code environment."
       button: 
         icon: "icon-arrow-right"
@@ -201,7 +198,6 @@ client_and_work:
       toolchain: "Terraform Registry."
       sme: "Engineers, support, and customer success teams."
       audience: "StrongDM administrators."
-      authors: "Engineers, other technical writers, and Steliana Vassileva."
       myrole: "Collaborated with engineering and support teams to improve the Guides section of the StrongDM Terraform provider documentation. Identified content gaps and restructured the section for clarity and usability, enhancing information architecture, refining instructional text, and expanding usage examples to better support infrastructure-as-code workflows. Contributed to documentation updates in alignment with Terraform best practices and StrongDM provider capabilities."
       button: 
         icon: "icon-arrow-right"
@@ -214,12 +210,11 @@ client_and_work:
 
     - title: "RIMdev blog posts"
       description: "This project is a blog from contributors of Ritter Insurance Marketing's software development department, also known as RIMdev. Content covers a variety of subjects, from frontend tips to backend topics and documentation-related concepts."
-      goal: "To post articles about various subjects that may be of interest to others."
+      goal: "To post articles about various subjects that may be of interest to internal and external audiences."
       toolchain: "Jekyll."
       sme: "Steliana Vassileva."
       audience: "Curious web viewers and external audiences."
-      authors: "Steliana Vassileva."
-      myrole: "Authored blog posts on newly learned topics and technical challenges with the goal of sharing practical solutions and insights. Content was designed to support team knowledge sharing and assist a broader audience facing similar issues."
+      myrole: "Authored blog posts about newly learned topics and technical challenges with the goal of sharing practical solutions and insights. Content was designed to support team knowledge sharing and assist a broader audience facing similar issues."
       button: 
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -232,11 +227,10 @@ client_and_work:
     - title: "Medicareful help videos"
       description: "The Medicareful video tutorials helped consumers to successfully utilize their Medicareful accounts once registered. Consumer-facing features are integrated into the Ritter Platform CRM, where independent insurance agents manage their clients."
       goal: "To help consumers interact with Medicareful."
-      toolchain: "Camtasia, Adobe Audition, Adobe After Effects, Adobe Premiere Pro, Wistia."
+      toolchain: "Camtasia, Adobe Audition, Adobe After Effects, Adobe Premiere Pro, and Wistia."
       sme: "Quality assurance (QA) team and Medicareful support team."
       audience: "Consumers using Medicareful."
-      authors: "Steliana Vassileva."
-      myrole: "Created user-facing multimedia documentation to support interaction with the Medicareful platform. Partnered with the support team to identify common pain points and high-impact topics for Medicareful account holders. Developed video tutorials by writing scripts, recording narration, capturing screen workflows, editing audio/video, adding animations, and enhancing content with sound design. Content was designed to improve user onboarding, reduce support load, and increase platform usability."
+      myrole: "Created user-facing multimedia documentation to support interaction with the Medicareful platform. Partnered with the support team to identify common pain points and high-impact topics for Medicareful account holders. Developed video tutorials by writing scripts, recording narration, capturing screen workflows, editing audio/video, adding animations, and enhancing content with sound design. Content was intended to improve user onboarding, reduce support load, and increase platform usability."
       button:
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -248,11 +242,10 @@ client_and_work:
 
     - title: "Ritter Docs site &#8212; user documentation"
       description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. User documentation displayed based on role and system access."
-      goal: "To help independent insurance agents and internal business staff utilize Ritter's software platform."
-      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker."
+      goal: "To help independent insurance agents and internal business staff utilizing Ritter's software platform."
+      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, and Docker."
       sme: "Developers, QA, and other business stakeholders."
       audience: "Independent insurance agents and internal business staff."
-      authors: "Steliana Vassileva, marketing and sales support teams, software developers, and other internal staff."
       myrole: "Served as the primary author and maintainer of Ritter’s documentation project, delivering comprehensive user content to support independent insurance agents and internal business staff in utilizing Ritter’s software platform. Collaborated cross-functionally with developers, QA engineers, support teams, subject matter experts, marketing, and other stakeholders to gather technical requirements, validate workflows, and ensure accuracy and clarity of documentation. Led content strategy, version control, and documentation tooling within a docs-as-code environment."
       button:
         icon: "icon-arrow-right"
@@ -266,7 +259,7 @@ client_and_work:
     - title: "Ritter Docs site &#8212; developer documentation"
       description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. Developer documentation displays based on user role and system access."
       goal: "To help developers and QA with technical tasks, such as local environment setup, GitHub workflows, infrastructure topics, or deployments."
-      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker."
+      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, and Docker."
       sme: "Developers and members of QA."
       audience: "QA team and engineers."
       authors: "Steliana Vassileva."
