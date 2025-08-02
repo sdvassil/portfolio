@@ -3,7 +3,7 @@
 /* utility */
 
 html body {
-    color: #616161;
+    color: #000;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header .navbar-light .navbar-nav .nav-link {
-    color: #616161;
+    color: #000;
     font-size: 21px;
     font-weight: 200;
 }
@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     padding-left: 0px;
     font-weight: 200;
+    color: #000;
 }
 
 .section li::before {
@@ -54,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .lead {
-    color: #616161;
+    color: #000;
     font-weight: 200;
     font-family: 'Poppins', sans-serif;
     line-height: 1.45;
@@ -76,8 +77,8 @@ p a {
 }
 
 p a:hover, p a:visited {
-    color: darkseagreen;
-    border-bottom: 1px solid darkseagreen;
+    color: rgb(89, 130, 89);
+    border-bottom: 1px solid rgb(89, 130, 89);
     font-weight: 500;
     cursor: pointer;
 }
@@ -93,7 +94,7 @@ p a:hover, p a:visited {
 /* nav bar */
 
 .header .navbar-brand span:first-child {
-    color: darkseagreen;
+    color: rgb(89, 130, 89);
     padding-bottom: 7px;
 }
 
@@ -118,7 +119,7 @@ p a:hover, p a:visited {
 }
 
 .display-1 span {
-    color: darkseagreen;
+    color: rgb(89, 130, 89);
 }
 
 .rad-showcase__bg {
@@ -174,14 +175,14 @@ p a:hover, p a:visited {
     font-weight: 100;
     font-size: 30px;
     line-height: 1.25;
-    color: #616161;
+    color: #000;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
 }
 
 .quoted::before {
     content: open-quote;
-    color: darkseagreen;
+    color: rgb(89, 130, 89);
     font-size: 225px;
     display: block;
     margin-bottom: -180px;
@@ -193,7 +194,7 @@ p a:hover, p a:visited {
 
 .quoted::after {
     content: close-quote;
-    color: darkseagreen;
+    color: rgb(89, 130, 89);
     font-size: 140px;
     display: block;
     margin-bottom: -100px;
@@ -234,7 +235,12 @@ p a:hover, p a:visited {
 /* exerience */
 
 .experience__company {
-    color: darkseagreen;
+    color: rgb(89, 130, 89);
+}
+
+#experience p {
+    font-weight: 200;
+    font-size: 18px;
 }
 
 /* portfolio */
@@ -242,7 +248,7 @@ p a:hover, p a:visited {
 .work-description {
     display: block;
     font-size: 18px;
-    color: #616161;
+    color: #000;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
@@ -251,8 +257,15 @@ p a:hover, p a:visited {
     font-weight: bold;
 }
 
-#view-sample .btn-primary {
-    margin-top: 1rem;
+#view-sample .btn-secondary {
+    background-color: darkslategray;
+    border-color: darkslategray;
+}
+
+#view-sample .btn-secondary:hover {
+    color: #000;
+    background-color: transparent;
+    border-color: #000;
 }
 
 .work-sample {
