@@ -120,7 +120,7 @@ experience:
 # Client & Work
 client_and_work:
   title: "Work samples"
-  description: "In this online portfolio, I have included work examples that are publicly accessible on the internet. I provide sreenshots of pages as they appeared at the time of publication. However, other documentation projects are proprietary and not a part of the public domain. For these private technical writing assignments, I include protected screenshots to illustrate my scope of work. Please [contact me](https://steliana-vassileva.netlify.app/#contact) if you have any questions."
+  description: "In this online portfolio, I have included work examples that are publicly accessible on the internet. I provide screenshots of pages as they appeared at the time of publication. However, other documentation projects are proprietary and not a part of the public domain. For these private technical writing assignments, I include protected screenshots to illustrate my scope of work. Please [contact me](https://steliana-vassileva.netlify.app/#contact) if you have any questions."
   enable: true
 
   works:
