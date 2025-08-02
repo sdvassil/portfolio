@@ -40,7 +40,7 @@ about:
     We use a documentation approach that keeps me learning while allowing me to sharpen frontend skills, such as HTML, CSS, JavaScript, and React. I enjoy the technical aspects of my work, working with REST APIs and SDKs, collaborating with engineers, and participating in the software development lifecycle. To produce software documentation, I prefer a docs-as-code approach and working with static site generators such as Hugo, Jekyll, or Gatsby. 
     </p>
     <p class="lead">
-    In past roles, I have led documentation efforts and also served as a member of quality assurance (QA) teams, where I often tested system features before writing about them. Additionally, I have experience in scripting and editing video tutorials.
+    In past roles, I&apos;ve led documentation efforts and also served as a member of quality assurance (QA) teams, where I often tested system features before writing about them. Additionally, I have experience in scripting and editing video tutorials.
     </p>'
   subtitle:
     '<p class="blockquote-text">
@@ -54,7 +54,7 @@ about:
 education:
   enable: true
   title: "Education"
-  description: "My undergraduate studies prepared me for a journalism career as a news writer, video editor, live truck operator, and videographer. After some years in the broadcasting world, I received my Master of Applied Science in Information and Communications Technology, with a concentration in Web Design and Development. I believe that my experience in both of these areas contributes to my effectiveness as a communicator and documentarian."
+  description: "My undergraduate studies prepared me for a journalism career as a news writer, video editor, live truck operator, and videographer. After several years in the broadcasting world, I received my Master of Applied Science in Information and Communications Technology, with a concentration in Web Design and Development. My experience in both of these areas contributes to my effectiveness as a communicator and documentarian."
   items:
     - university: "UX Content Collective"
       year: "2022"
@@ -120,12 +120,12 @@ experience:
 # Client & Work
 client_and_work:
   title: "Work samples"
-  description: "In this online portfolio, I've included work examples that are publicly accessible on the internet. I provide links to sreenshots of pages as they appeared at the time of publication. However, other documentation projects are proprietary and not a part of the public domain. For these private technical writing assignments, I include protected screenshots to illustrate my scope of work. Please [contact me](https://steliana-vassileva.netlify.app/#contact) if you have any questions."
+  description: "In this online portfolio, I have included work examples that are publicly accessible on the internet. I provide sreenshots of pages as they appeared at the time of publication. However, other documentation projects are proprietary and not a part of the public domain. For these private technical writing assignments, I include protected screenshots to illustrate my scope of work. Please [contact me](https://steliana-vassileva.netlify.app/#contact) if you have any questions."
   enable: true
 
   works:
     - title: "Wowza Streaming Engine"
-      description: "[Wowza Streaming Engine™](https://www.wowza.com/docs/wowza-streaming-engine-product-articles) is a robust and powerful media server designed for developers who need full control over live and on-demand video delivery. It's extensible through custom Java modules and easily integrated via REST and Java APIs, supporting both single-bitrate and adaptive bitrate streaming using industry-standard protocols such as HLS, MPEG-DASH, RTMP, RTSP, and WebRTC. Since it's designed for flexibility, the server can be deployed on-premises or in hybrid environments."
+      description: "[Wowza Streaming Engine™](https://www.wowza.com/docs/wowza-streaming-engine-product-articles) is a robust and powerful media server designed for developers who need full control over live and on-demand video delivery. It's extensible through custom Java modules and easily integrated via REST and Java APIs, supporting both single-bitrate and adaptive bitrate streaming using industry-standard protocols such as HLS, MPEG-DASH, RTMP, RTSP, and WebRTC. Because it's designed for flexibility, the server can be deployed on-premises or in hybrid environments."
       goal: "To create and update technical guides, tutorials, release notes, and API and SDK references for Wowza Streaming Engine and the official Wowza documentation site."
       toolchain: "KnowledgeOwl, HTML, CSS, JavaScript, and JQuery."
       sme: "Engineers, support team members, and product managers."
@@ -262,7 +262,6 @@ client_and_work:
       toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, and Docker."
       sme: "Developers and members of QA."
       audience: "QA team and engineers."
-      authors: "Steliana Vassileva."
       myrole: "Served as the primary author and maintainer of the documentation project, delivering detailed technical content to assist developers and QA engineers with key workflows such as local environment setup, GitHub CI/CD pipelines, infrastructure management, and deployment processes. Collaborated closely with frontend and backend engineers, as well as QA specialists, to gather requirements, validate procedures, and ensure accuracy and clarity in documentation. Managed documentation versioning and tooling within a docs-as-code framework to support continuous integration and iterative updates."
       button:
         icon: "icon-arrow-right"
