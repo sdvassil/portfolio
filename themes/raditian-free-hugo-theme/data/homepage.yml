@@ -46,10 +46,6 @@ about:
     '<p class="blockquote-text">
     When I can step through a task, test it, and write about it. Going through each step helps my understanding and improves the documentation results.
     </p>'
-  more:
-    '<p class="lead">
-    My undergraduate studies prepared me for a journalism career as a news writer, video editor, live truck operator, and videographer. After some years in the broadcasting world, I received my Master of Applied Science in Information and Communications Technology, with a concentration in Web Design and Development. I believe that my experience in both of these areas contributes to my effectiveness as a communicator and documentarian.
-    </p>'
   image:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
@@ -58,6 +54,7 @@ about:
 education:
   enable: true
   title: "Education"
+  description: "My undergraduate studies prepared me for a journalism career as a news writer, video editor, live truck operator, and videographer. After some years in the broadcasting world, I received my Master of Applied Science in Information and Communications Technology, with a concentration in Web Design and Development. I believe that my experience in both of these areas contributes to my effectiveness as a communicator and documentarian."
   items:
     - university: "UX Content Collective"
       year: "2022"
