@@ -16,7 +16,7 @@
                     <span>{{ .Site.Data.homepage.experience.subtitle }}</span>
                 </h2>
                 <p class="lead">
-                    {{ .Site.Data.homepage.experience.description | safeHTML }}
+                    {{ .Site.Data.homepage.experience.description | markdownify }}
                 </p>
                 <a href="{{ .Site.Data.homepage.experience.button.URL | absURL }}" class="btn btn-primary mb-5"
                    target="_blank">

@@ -5,7 +5,7 @@
       {{ .Site.Data.homepage.client_and_work.title }}
     </h2>
     <p class="lead">
-      {{ .Site.Data.homepage.client_and_work.description }}
+      {{ .Site.Data.homepage.client_and_work.description | markdownify }}
     </p>
     {{ range $index, $element := .Site.Data.homepage.client_and_work.works }}
     <div class="rad-animation-group rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}">
@@ -26,11 +26,11 @@
             <div class="work-bullets col-12 col-md-6 mt-md-0 mt-5">
               <ul class="pl-0">
                 <li><strong class="work-bold">Audience: </strong>{{ .audience }}<br></li>
-                <li><strong class="work-bold">Authors/Editors: </strong>{{ .authors }}<br></li>
-                <li><strong class="work-bold">Goal: </strong>{{ .goal }}<br></li>
-                <li><strong class="work-bold">My Role: </strong>{{ .myrole }}</li>
+                <!-- <li><strong class="work-bold">Authors/Editors: </strong>{{ .authors }}<br></li> -->
+                <li><strong class="work-bold">Documentation goal: </strong>{{ .goal }}<br></li>
+                <li><strong class="work-bold">My role: </strong>{{ .myrole }}</li>
                 <li><strong class="work-bold">Subject Matter Experts (SMEs): </strong>{{ .sme }}<br></li>
-                <li><strong class="work-bold">Toolchain: </strong>{{ .toolchain }}<br></li>
+                <li><strong class="work-bold">Documentation toolchain: </strong>{{ .toolchain }}<br></li>
               </ul>
             </div>
             <div id="view-sample" class="col-12 mt-2 mt-md-0 mb-5 text-right">
@@ -46,11 +46,11 @@
               <div class="work-bullets col-12 col-md-6 pr-5">
                 <ul class="pl-0">
                   <li><strong class="work-bold">Audience: </strong>{{ .audience }}<br></li>
-                  <li><strong class="work-bold">Authors/Editors: </strong>{{ .authors }}<br></li>
-                  <li><strong class="work-bold">Goal: </strong>{{ .goal }}<br></li>
-                  <li><strong class="work-bold">My Role: </strong>{{ .myrole }}</li>
+                  <!-- <li><strong class="work-bold">Authors/Editors: </strong>{{ .authors }}<br></li> -->
+                  <li><strong class="work-bold">Documentation goal: </strong>{{ .goal }}<br></li>
+                  <li><strong class="work-bold">My role: </strong>{{ .myrole }}</li>
                   <li><strong class="work-bold">Subject Matter Experts (SMEs): </strong>{{ .sme }}<br></li>
-                  <li><strong class="work-bold">Toolchain: </strong>{{ .toolchain }}<br></li>
+                  <li><strong class="work-bold">Documentation toolchain: </strong>{{ .toolchain }}<br></li>
                 </ul>
               </div>
               <div class="col-12 col-md-6 pl-md-0">
@@ -63,6 +63,9 @@
               </div>
               <div id="view-sample" class="col-12 mt-md-0 mb-5 text-right">
                 <a href="{{ .button.URL | absURL }}" class="btn btn-primary" target="_blank">{{ .button.btnText }}<i class="{{ .button.icon }}"></i></a>
+                {{ with .button2 }}
+                  <a href="{{ .URL | absURL }}" class="btn btn-secondary ml-2" target="_blank">{{ .btnText }}<i class="{{ .icon }}"></i></a>
+                {{ end }}
               </div>
             </div>
         {{ end }}

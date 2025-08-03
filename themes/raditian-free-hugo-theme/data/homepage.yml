@@ -2,8 +2,8 @@
 showcase:
   enable: true
   title: "Hello, I’m Steliana."
-  subtitle: "Technical Writer & Documentarian"
-  description: "Knowledge is power. That's why I'm passionate about capturing technical information and conveying it to users. I hope to make others feel empowered, independent, and ready to succeed."
+  subtitle: "Senior Technical Writer & Documentarian"
+  description: "Knowledge is power. That's why I'm passionate about capturing technical information and conveying it to my audiences. I hope to make others feel empowered, independent, and ready to succeed."
   more: "As a user advocate, I aim to level the playing field and to reduce monopolies on knowledge. With the proper tools and some eagerness, anyone can learn."
   image:
     x: "/img/showcase/showcase.png"
@@ -34,21 +34,17 @@ about:
   enable: true
   title: "About me"
   content: '<p class="lead">
-    I&apos;m a Technical Writer on a Product team that employs an agile methodology. In this role, I work with the support team and engineers to produce software documentation for new and existing features.
+    I&apos;m a Senior Technical Writer with over 10 years of technical expertise, currently working on a product team that employs an Agile methodology. In this role, I work with engineering, product, and support to produce high-quality software documentation for new and existing features. I specialize in developer documentation, with skills in docs-as-code workflows, static site generators, and Git-based version control.
     </p>
     <p class="lead">
-    We use a documentation approach that keeps me learning while giving me the opportunity to sharpen frontend skills, such as HTML, CSS, JavaScript, and React. I enjoy the technical aspects of my work, working with our REST APIs, collaborating with engineers, and participating in the development process. To produce software documentation, I prefer a docs-as-code philosophy and working with static site generators such as Hugo, Jekyll, or Gatsby. 
+    We use a documentation approach that keeps me learning while allowing me to sharpen frontend skills, such as HTML, CSS, JavaScript, and React. I enjoy the technical aspects of my work, working with REST APIs and SDKs, collaborating with engineers, and participating in the software development lifecycle. To produce software documentation, I prefer a docs-as-code approach and working with static site generators such as Hugo, Jekyll, or Gatsby. 
     </p>
     <p class="lead">
-    In past roles, I have led documentation efforts and also served as a member of a Quality Assurance (QA) team, where I often tested system features before writing about them. Additionally, I have experience scripting and editing video tutorials.
+    In past roles, I&apos;ve led documentation efforts and also served as a member of quality assurance (QA) teams, where I often tested system features before writing about them. Additionally, I have experience in scripting and editing video tutorials.
     </p>'
   subtitle:
     '<p class="blockquote-text">
     When I can step through a task, test it, and write about it. Going through each step helps my understanding and improves the documentation results.
-    </p>'
-  more:
-    '<p class="lead">
-    My undergraduate studies prepared me for a journalism career as a news writer, video editor, live truck operator, and videographer. After some years in the broadcasting world, I switched gears and received my Master of Applied Science in Information and Communications Technology, with a concentration in Web Design and Development. I feel that my experience in both of these areas contributes to my effectiveness as a communicator and documentarian.
     </p>'
   image:
     x: "img/who-am-i/user-picture.png"
@@ -58,6 +54,7 @@ about:
 education:
   enable: true
   title: "Education"
+  description: "My undergraduate studies prepared me for a journalism career as a news writer, video editor, live truck operator, and videographer. After several years in the broadcasting world, I received my Master of Applied Science in Information and Communications Technology, with a concentration in Web Design and Development. My experience in both of these areas contributes to my effectiveness as a communicator and documentarian."
   items:
     - university: "UX Content Collective"
       year: "2022"
@@ -76,15 +73,15 @@ education:
 experience:
   enable: true
   title: "Experience"
-  subtitle: "More than ten years experience working with information systems, development teams, and end users."
-  description: "Hands-on experience includes documentation, frontend development, system support and maintenance, system analysis, QA testing, project management, report writing, and data analysis. For additional professional details, check out my LinkedIn profile or download my resume."
+  subtitle: "More than 10+ experience working with information systems, development teams, and end users."
+  description: "Hands-on experience spans a variety of disciplines including documentation, frontend development, system support and maintenance, system analysis, QA testing, project management, report writing, and data analysis.\n\n As a technical writer, I've created and maintained user and developer documentation, API and SDK references, UI copy, and tutorials for SaaS, cloud platforms, and on-premise software. I'm skilled in docs-as-code workflows, static site generators, Git-based version control, and Agile environments. I'm also passionate about user-centered content that improves onboarding and reduces support load.\n\n For additional professional details, check out my LinkedIn profile or download my résumé.\n\n [Contact me](https://steliana-vassileva.netlify.app/#contact) if you would like to connect, or if there's a question I can help to answer."
   button:
     icon: "icon-linkedin-fill"
     btnText: "LinkedIn"
     URL: "https://www.linkedin.com/in/steliana-vassileva-6b551645/"
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download my resume"
+    btnText: "Download my résumé"
     URL: "/documents/svassileva-resume-2022-web.pdf"
 
   items:
@@ -123,18 +120,69 @@ experience:
 # Client & Work
 client_and_work:
   title: "Work samples"
-  description: "Some of my documentation work is proprietary and not available in the public domain. However, I've included work examples in this online portfolio that are publicly accessible. For private technical writing projects, I can share protected screenshots to illustrate my work. Please feel free to reach out if you have any questions."
+  description: "In this online portfolio, I have included work examples that are publicly accessible on the internet. I provide screenshots of pages as they appeared at the time of publication. However, other documentation projects are proprietary and not a part of the public domain. For these private technical writing assignments, I include protected screenshots to illustrate my scope of work. Please [contact me](https://steliana-vassileva.netlify.app/#contact) if you have any questions."
   enable: true
 
   works:
-    - title: "StrongDM documentation"
+    - title: "Wowza Streaming Engine"
+      description: "[Wowza Streaming Engine™](https://www.wowza.com/docs/wowza-streaming-engine-product-articles) is a robust and powerful media server designed for developers who need full control over live and on-demand video delivery. It's extensible through custom Java modules and easily integrated via REST and Java APIs, supporting both single-bitrate and adaptive bitrate streaming using industry-standard protocols such as HLS, MPEG-DASH, RTMP, RTSP, and WebRTC. Because it's designed for flexibility, the server can be deployed on-premises or in hybrid environments."
+      goal: "To create and update technical guides, tutorials, release notes, and API and SDK references for Wowza Streaming Engine and the official Wowza documentation site."
+      toolchain: "KnowledgeOwl, HTML, CSS, JavaScript, and JQuery."
+      sme: "Engineers, support team members, and product managers."
+      audience: "Video streaming engineers, Wowza Streaming Engine administrators, support, and other users."
+      myrole: "Developed and maintained technical content for Wowza Streaming Engine, including SDK and API references, integration guides, tutorials, and release notes. Collaborated with engineering and QA teams to test new features in pre-release builds, validate functionality, and ensure documentation accuracy. Authored developer-focused materials aligned with REST and Java API usage, media streaming workflows, and deployment scenarios. Contributed to content architecture and documentation tooling."
+      button: 
+        icon: "icon-arrow-right"
+        btnText: "View samples"
+        URL: "https://app.screencast.com/collections/g000300J6gEhXss4KBzz7ukvokL5Z"
+      image:
+        x: "img/works/wse-docs.png"
+        _2x: "img/works/wse-docs@2x.png"
+      is_even: false
+
+    - title: "Wowza Flowplayer"
+      description: "[Wowza Flowplayer](https://developer.wowza.com/docs/wowza-flowplayer/) is a lightweight, modular HTML5 video player optimized for low-latency live and on-demand streaming across modern browsers and devices. It supports adaptive bitrate streaming via HLS and MPEG-DASH, and includes built-in ad tech support for VAST, VMAP, and Google IMA SDK integrations. The player provides a modular UI architecture, an extensible JavaScript API, and customizable theming via CSS. Its event-driven model supports granular playback control and custom user interaction workflows, as it integrates easily with APIs and backend systems to tailor playback behavior, manage metadata, and surface analytics."
+      goal: "To create and update technical guides, tutorials, release notes, and SDK references for users of Wowza Flowplayer as a standalone product."
+      toolchain: "Redocly developer portal, Gatsby, GitHub, HTML, CSS, MDX, and React."
+      sme: "Engineers, support team members, and product managers."
+      audience: "Video streaming engineers, Wowza Flowplayer publishers, support, and other users."
+      myrole: "Developed and maintained SDK references, technical guides, tutorials, and release notes for Wowza Flowplayer as a standalone product. Managed updates to the developer portal, ensuring accurate, versioned content and seamless navigation. Collaborated with engineering to test new features and document integration workflows, player configuration, and API usage in a docs-as-code pipeline."
+      button: 
+        icon: "icon-arrow-right"
+        btnText: "View samples"
+        URL: "https://app.screencast.com/collections/g0003003KQrtt1ImEgeBWk1Rb68TW"
+      image:
+        x: "img/works/wowza-flowplayer-docs.png"
+        _2x: "img/works/wowza-flowplayer-docs@2x.png"
+      is_even: true
+
+    - title: "Wowza Flowplayer Apple and Android SDKs"
+      description: "The [Wowza Flowplayer Apple SDK](https://developer.wowza.com/docs/wowza-flowplayer/apple-sdk/about-the-apple-sdk/) and [Android SDK](https://developer.wowza.com/docs/wowza-flowplayer/android-sdk/about-the-android-sdk/) are mobile software development kits that allow developers to integrate live streaming and on-demand video playback into native iOS and Android applications. These SDKs are built for low-latency, secure, and reliable media playback experiences on mobile, optimized for compatibility with HLS (HTTP Live Streaming) and DASH protocols, DRM (Digital Rights Management), and advanced analytics. They are part of the broader Wowza Flowplayer product ecosystem, which includes powerful video streaming, player, and monetization tools."
+      goal: "To develop a comprehensive, scalable documentation set that clearly explains SDK usage, capabilities, and integration patterns across supported platforms."
+      toolchain: "Redocly developer portal, Gatsby, GitHub, HTML, CSS, MDX, and React."
+      sme: "Engineers, support team members, and product managers."
+      audience: "Video streaming engineers, Wowza Flowplayer publishers, support, and other users."
+      myrole: "Collaborated closely with engineering teams to plan, develop, and deliver a comprehensive SDK reference from the ground up. Led content architecture, defined documentation structure and style, and translated complex technical concepts into clear, developer-friendly language. Worked hands-on with the SDK to validate functionality, write usage examples, and ensure accuracy."
+      button: 
+        icon: "icon-arrow-right"
+        btnText: "View Apple SDK docs"
+        URL: "https://developer.wowza.com/docs/wowza-flowplayer/apple-sdk/about-the-apple-sdk/"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "View Android SDK docs"
+        URL: "https://developer.wowza.com/docs/wowza-flowplayer/android-sdk/about-the-android-sdk/"
+      image:
+        x: "img/works/wowza-flowplayer-mobile-sdk.png"
+        _2x: "img/works/wowza-flowplayer-mobile-sdk@2x.png"
+      is_even: false
+
+    - title: "StrongDM"
       description: "[StrongDM](https://www.strongdm.com/docs/) is an infrastructure access platform that serves as a proxy. It allows administrators to manage, secure, and audit access to critical infrastructure resources such as databases, servers, clusters, clouds, and websites."
-      goal: "To create technical guides, tutorials, and release notes for the StrongDM Docs site"
-      toolchain: "Hugo, GitHub, HTML, CSS, JavaScript, Algolia, npm Package Manager, webpack"
-      sme: "Engineers, Support, Product, Customer Success, and Education teams"
-      audience: "StrongDM administrators, support, and anyone using StrongDM"
-      authors: "Technical Writers and Steliana Vassileva"
-      myrole: "As a member of the Education team, I create and review content for the StrongDM documentation site with the goal of explaining new and existing features."
+      goal: "To create technical guides, tutorials, and release notes for the StrongDM documentation site."
+      toolchain: "Hugo, GitHub, HTML, CSS, JavaScript, Algolia, npm, and webpack."
+      sme: "Engineers, support, product, and customer success teams."
+      audience: "StrongDM administrators, support, and other StrongDM users."
+      myrole: "Contributed to the design, authoring, and review of technical content for the StrongDM documentation site, including tutorials, integration guides, and release notes. Focused on clearly communicating new and existing product features to technical audiences. Collaborated with engineering and product teams to verify functionality, test workflows, and ensure documentation accuracy in a fast-paced, versioned docs-as-code environment."
       button: 
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -146,12 +194,11 @@ client_and_work:
 
     - title: "StrongDM Terraform provider guides"
       description: "StrongDM is a registered provider in the Terraform Registry. The **sdm** Terraform provider documentation allows StrongDM administrators to quickly deploy common infrastructure configurations by using Terraform."
-      goal: "To update the Guides section of the StrongDM Terraform provider documentation"
-      toolchain: "Terraform Registry"
-      sme: "Engineers, Support, and Customer Success teams"
-      audience: "StrongDM administrators"
-      authors: "Engineers, Technical Writers, and Steliana Vassileva"
-      myrole: "I recently worked with the Engineering and Support teams to improve the Guides section in the Terraform provider documentation. We identified content gaps and made improvements to text, information architecture, and usage examples."
+      goal: "To update the Guides section of the StrongDM Terraform provider documentation."
+      toolchain: "Terraform Registry."
+      sme: "Engineers, support, and customer success teams."
+      audience: "StrongDM administrators."
+      myrole: "Collaborated with engineering and support teams to improve the Guides section of the StrongDM Terraform provider documentation. Identified content gaps and restructured the section for clarity and usability, enhancing information architecture, refining instructional text, and expanding usage examples to better support infrastructure-as-code workflows. Contributed to documentation updates in alignment with Terraform best practices and StrongDM provider capabilities."
       button: 
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -163,12 +210,11 @@ client_and_work:
 
     - title: "RIMdev blog posts"
       description: "This project is a blog from contributors of Ritter Insurance Marketing's software development department, also known as RIMdev. Content covers a variety of subjects, from frontend tips to backend topics and documentation-related concepts."
-      goal: "To post articles about various subjects that may be of interest to others"
-      toolchain: "Jekyll"
-      sme: "Steliana Vassileva"
-      audience: "Curious web viewers"
-      authors: "Steliana Vassileva"
-      myrole: "When I learned about new topics or acquired new skills, I posted articles that could be useful to others. Blog posts were helpful to my team or anyone on the web encountering similar challenges."
+      goal: "To post articles about various subjects that may be of interest to internal and external audiences."
+      toolchain: "Jekyll."
+      sme: "Steliana Vassileva."
+      audience: "Curious web viewers and external audiences."
+      myrole: "Authored blog posts about newly learned topics and technical challenges with the goal of sharing practical solutions and insights. Content was designed to support team knowledge sharing and assist a broader audience facing similar issues."
       button: 
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -180,12 +226,11 @@ client_and_work:
 
     - title: "Medicareful help videos"
       description: "The Medicareful video tutorials helped consumers to successfully utilize their Medicareful accounts once registered. Consumer-facing features are integrated into the Ritter Platform CRM, where independent insurance agents manage their clients."
-      goal: "To help consumers interact with Medicareful"
-      toolchain: "Camtasia, Adobe Audition, Adobe After Effects, Adobe Premiere Pro, Wistia"
-      sme: "Quality Assurance (QA) team and Medicareful support team"
-      audience: "Consumers using Medicareful"
-      authors: "Steliana Vassileva"
-      myrole: "I worked with the Medicareful support team to identify helpful topics for consumers with Medicareful accounts. I wrote a script, recorded audio and video, edited all components, and added animations and music."
+      goal: "To help consumers interact with Medicareful."
+      toolchain: "Camtasia, Adobe Audition, Adobe After Effects, Adobe Premiere Pro, and Wistia."
+      sme: "Quality assurance (QA) team and Medicareful support team."
+      audience: "Consumers using Medicareful."
+      myrole: "Created user-facing multimedia documentation to support interaction with the Medicareful platform. Partnered with the support team to identify common pain points and high-impact topics for Medicareful account holders. Developed video tutorials by writing scripts, recording narration, capturing screen workflows, editing audio/video, adding animations, and enhancing content with sound design. Content was intended to improve user onboarding, reduce support load, and increase platform usability."
       button:
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -197,12 +242,11 @@ client_and_work:
 
     - title: "Ritter Docs site &#8212; user documentation"
       description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. User documentation displayed based on role and system access."
-      goal: "To help independent insurance agents and internal business staff utilize Ritter's software platform"
-      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
-      sme: "Developers, QA, and other business stakeholders"
-      audience: "Independent insurance agents and internal business staff"
-      authors: "Steliana Vassileva, Marketing and Sales Support teams, software developers, and other internal staff"
-      myrole: "I served as the primary creator and maintainer of the Docs project and website. To develop user content, I worked with developers, QA teammates, support teams, SMEs, the Marketing team, and other business stakeholders."
+      goal: "To help independent insurance agents and internal business staff utilizing Ritter's software platform."
+      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, and Docker."
+      sme: "Developers, QA, and other business stakeholders."
+      audience: "Independent insurance agents and internal business staff."
+      myrole: "Served as the primary author and maintainer of Ritter’s documentation project, delivering comprehensive user content to support independent insurance agents and internal business staff in utilizing Ritter’s software platform. Collaborated cross-functionally with developers, QA engineers, support teams, subject matter experts, marketing, and other stakeholders to gather technical requirements, validate workflows, and ensure accuracy and clarity of documentation. Led content strategy, version control, and documentation tooling within a docs-as-code environment."
       button:
         icon: "icon-arrow-right"
         btnText: "View samples"
@@ -214,12 +258,11 @@ client_and_work:
 
     - title: "Ritter Docs site &#8212; developer documentation"
       description: "Ritter's Docs site is a static Hugo site with an ASP .NET Core middleware component that serves as a knowledgebase for various Ritter Insurance Marketing web properties. The majority of this content is gated. Developer documentation displays based on user role and system access."
-      goal: "To help developers and QA with technical tasks, such as local environment setup, GitHub workflows, infrastructure topics, or deployments"
-      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, Docker"
-      sme: "Developers and members of QA"
-      audience: "QA team and engineers"
-      authors: "Steliana Vassileva"
-      myrole: "I served as the primary creator and maintainer of the Docs project and website. To develop technical content, I collaborated with frontend and backend engineers, as well as QA team members."
+      goal: "To help developers and QA with technical tasks, such as local environment setup, GitHub workflows, infrastructure topics, or deployments."
+      toolchain: "Hugo, GitHub, ASP .NET Core, Vue, HTML, CSS, JavaScript, npm Package Manager, webpack, and Docker."
+      sme: "Developers and members of QA."
+      audience: "QA team and engineers."
+      myrole: "Served as the primary author and maintainer of the documentation project, delivering detailed technical content to assist developers and QA engineers with key workflows such as local environment setup, GitHub CI/CD pipelines, infrastructure management, and deployment processes. Collaborated closely with frontend and backend engineers, as well as QA specialists, to gather requirements, validate procedures, and ensure accuracy and clarity in documentation. Managed documentation versioning and tooling within a docs-as-code framework to support continuous integration and iterative updates."
       button:
         icon: "icon-arrow-right"
         btnText: "View samples"
