@@ -82,7 +82,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download my résumé"
-    URL: "/documents/svassileva-resume-2022-web.pdf"
+    URL: "/documents/svassileva-resume-2025-web.pdf"
 
   items:
     - title: "Senior Technical Writer"
@@ -193,7 +193,7 @@ client_and_work:
       is_even: true
 
     - title: "StrongDM Terraform provider guides"
-      description: "StrongDM is a registered provider in the Terraform Registry. The **sdm** Terraform provider documentation allows StrongDM administrators to quickly deploy common infrastructure configurations by using Terraform."
+      description: "StrongDM is a registered provider in the [Terraform Registry](https://registry.terraform.io/providers/strongdm/sdm/latest/docs). The **sdm** Terraform provider documentation allows StrongDM administrators to quickly deploy common infrastructure configurations by using Terraform."
       goal: "To update the Guides section of the StrongDM Terraform provider documentation."
       toolchain: "Terraform Registry."
       sme: "Engineers, support, and customer success teams."
