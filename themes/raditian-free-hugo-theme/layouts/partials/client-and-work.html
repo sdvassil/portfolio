@@ -15,16 +15,8 @@
               <h3>{{ .title | markdownify }}</h3>
               <p class="work-description">{{ .description | markdownify }}<br><br></p>
             </div>
-            <div class="col-12 col-md-6 pl-md-0">
-              <img
-                class="lozad img-responsive work-sample img-right"
-                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="{{ .image.x | absURL }}"
-                data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
-                alt="{{ .title }}"/>
-            </div>
-            <div class="work-bullets col-12 col-md-6 mt-md-0 mt-5">
-              <ul class="pl-0">
+            <div class="work-bullets col-12 col-md-5 mt-md-0 mt-5">
+              <ul class="pl-0 pr-5">
                 <li><strong class="work-bold">Audience: </strong>{{ .audience }}<br></li>
                 <!-- <li><strong class="work-bold">Authors/Editors: </strong>{{ .authors }}<br></li> -->
                 <li><strong class="work-bold">Documentation goal: </strong>{{ .goal }}<br></li>
@@ -33,9 +25,18 @@
                 <li><strong class="work-bold">Documentation toolchain: </strong>{{ .toolchain }}<br></li>
               </ul>
             </div>
-            <div id="view-sample" class="col-12 mt-2 mt-md-0 mb-5 text-right">
+            <div class="col-12 col-md-7 pl-md-0">
+              <img
+                class="lozad img-responsive work-sample img-right"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="{{ .image.x | absURL }}"
+                data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
+                alt="{{ .title }}"/>
+            </div>
+            <div id="view-sample" class="col-12 mt-3 mb-5 text-right">
               <a href="{{ .button.URL | absURL }}" class="btn btn-primary" target="_blank">{{ .button.btnText }}<i class="{{ .button.icon }}"></i></a>
             </div>
+          
           </div>
         {{ else }}
             <div class="row">
@@ -43,7 +44,7 @@
                 <h3>{{ .title | markdownify }}</h3>
                 <p class="work-description">{{ .description | markdownify }}<br><br></p>
               </div>
-              <div class="work-bullets col-12 col-md-6 pr-5">
+              <div class="work-bullets col-12 col-md-5 pr-5">
                 <ul class="pl-0">
                   <li><strong class="work-bold">Audience: </strong>{{ .audience }}<br></li>
                   <!-- <li><strong class="work-bold">Authors/Editors: </strong>{{ .authors }}<br></li> -->
@@ -53,7 +54,7 @@
                   <li><strong class="work-bold">Documentation toolchain: </strong>{{ .toolchain }}<br></li>
                 </ul>
               </div>
-              <div class="col-12 col-md-6 pl-md-0">
+              <div class="col-12 col-md-7 pr-md-0" style="padding-right: 0px;">
                 <img
                   class="lozad img-responsive work-sample reduce-opacity text-right"
                   src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -61,11 +62,11 @@
                   data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
                   alt="{{ .title }}"/>
               </div>
-              <div id="view-sample" class="col-12 mt-md-0 mb-5 text-right">
-                <a href="{{ .button.URL | absURL }}" class="btn btn-primary" target="_blank">{{ .button.btnText }}<i class="{{ .button.icon }}"></i></a>
-                {{ with .button2 }}
-                  <a href="{{ .URL | absURL }}" class="btn btn-secondary ml-2" target="_blank">{{ .btnText }}<i class="{{ .icon }}"></i></a>
-                {{ end }}
+              <div id="view-sample" class="col-12 mb-5 mt-3 pr-0 text-right">
+                  <a href="{{ .button.URL | absURL }}" class="btn btn-primary" target="_blank">{{ .button.btnText }}<i class="{{ .button.icon }}"></i></a>
+                  {{ with .button2 }}
+                    <a href="{{ .URL | absURL }}" class="btn btn-secondary ml-2" target="_blank">{{ .btnText }}<i class="{{ .icon }}"></i></a>
+                  {{ end }}
               </div>
             </div>
         {{ end }}
