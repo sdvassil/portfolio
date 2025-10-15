@@ -218,7 +218,7 @@ client_and_work:
       button: 
         icon: "icon-arrow-right"
         btnText: "View samples"
-        URL: "https://rimdev.io/author/steliana-vassileva"
+        URL: "https://app.screencast.com/collections/g000300dxsfHY1omblKiyZHOQ384i"
       image:
         x: "img/works/rimdev-blog.png"
         _2x: "img/works/rimdev-blog@2x.png"
